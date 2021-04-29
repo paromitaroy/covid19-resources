@@ -2,9 +2,11 @@
 COVID-19 India Helpful Resources
 
 ---
-# APP URL - https://covidresources.azurewebsites.net/ 
-(I haven't sorted out the domain yet)
+# APP URLs - 
+https://covidresourcesin.com
+www.covidresourcesin.com
 
+---
 # Contribution
 
 - Git clone https://github.com/paromitaroy/covid19-resources.git
@@ -16,6 +18,7 @@ COVID-19 India Helpful Resources
 - One environment only so keep that in mind
 - I have seperated the pages as per city/places 
 
+---
 # Reference
 
 THE TEMPLATE WAS REFERENCED FROM https://github.com/Azure-Samples/html-docs-hello-world.git
