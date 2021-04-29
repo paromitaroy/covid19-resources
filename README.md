@@ -2,6 +2,9 @@
 COVID-19 India Helpful Resources
 
 ---
+# APP URL - https://covidresources.azurewebsites.net/ 
+(I haven't sorted out the domain yet)
+
 # Contribution
 
 - Git clone https://github.com/paromitaroy/covid19-resources.git
