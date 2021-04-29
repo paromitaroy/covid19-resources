@@ -4,7 +4,7 @@ name: Run_Pipeline
 
 on: 
   push:
-    branches: [ none ]
+    branches: [ main ]
 
 env:
   AZURE_WEBAPP_NAME: covidresources   # set this to your application's name
