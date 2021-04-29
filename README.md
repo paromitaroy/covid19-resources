@@ -14,7 +14,7 @@ www.covidresourcesin.com
 - Basic CSS+HTML site and nothing fancy, as we just need the information!!
 - Update on a branch, we just have one environment only so keep that in mind :blush:
 - For simplicity purpose, I haven't set-up any policies
-- A [CI/CD pipeline](https://github.com/paromitaroy/covid19-resources/blob/main/.github/workflows/azure.yml) has been set-up, it will trigger upon push to the main branch
+- A [CI/CD pipeline](https://github.com/paromitaroy/covid19-resources/blob/main/.github/workflows/azure.yml) has been set-up, it will trigger upon push/merge to the main branch
 - As I get more contributors, we can come up with the best plan for release
 
 - I have seperated the pages as per city/places 
