@@ -1,5 +1,5 @@
 ---
-COVID-19 India Helpful Resources :purple_heart:
+:purple_heart: COVID-19 India Helpful Resources
 
 ---
 # APP URLs
