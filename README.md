@@ -8,7 +8,7 @@ COVID-19 India Helpful Resources
 # Contribution
 
 - Git clone https://github.com/paromitaroy/covid19-resources.git
-- Basic CSS+HTML site and nothing fancy, as we just need to information!!
+- Basic CSS+HTML site and nothing fancy, as we just need the information!!
 - Update directly to the main branch 
 - For simplicity purpose, I haven't set-up any policies
 - The pipeline will run manually for now (as we are continuously building)
