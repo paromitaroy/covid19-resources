@@ -17,7 +17,7 @@ www.covidresourcesin.com
 - A [CI/CD pipeline](https://github.com/paromitaroy/covid19-resources/blob/main/.github/workflows/azure.yml) has been set-up, it will trigger upon push/merge to the main branch
 - As I get more contributors, we can come up with the best plan for release
 
-- I have seperated the pages as per city/places 
+- I have seperated the pages as per states/cities 
 
 
 ---
