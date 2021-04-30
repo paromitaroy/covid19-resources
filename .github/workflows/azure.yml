@@ -4,7 +4,7 @@ name: Run_Pipeline
 
 on: 
   push:
-    branches: [ main ]
+    branches: [ none ]
 
 env:
   AZURE_WEBAPP_NAME: covidresources   # set this to your application's name
@@ -24,13 +24,6 @@ jobs:
         
     - name: 'Checking out repo code'
       uses: actions/checkout@v2
-        
-#     - name: Azure CLI Action
-#       uses: Azure/cli@1.0.4
-#       with:
-#         # Specify the script here
-#         inlineScript: az webapp up --location westeurope --name covidresources --html
-#         # Azure CLI version to be used to execute the script. If not provided, latest version is used
 
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
