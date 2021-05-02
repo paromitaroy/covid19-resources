@@ -52,7 +52,7 @@
 
 
         if ($file !== '.' && $file !== '..' && in_array($file_type, $file_display) == true) {
-            echo 'Uploaded on ', date("F d, Y h:i:s A", $timestamp);
+            echo 'Uploaded on ', date("d-m-y", $timestamp);
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
