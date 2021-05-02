@@ -11,23 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <style>
 
-        table.kolkata {
-            table-layout: fixed;
-            width: 50%; 
-            text-align: center; 
-            border: antiquewhite;
-            border-collapse: collapse;
-            border: 1px solid brown;
-        }
-        .kolkata{
-        margin: 10px;
-        }
-        th,td {
-        border: 1px solid black;
-        }
-    </style> -->
   </head>
 
   <body>
@@ -37,19 +21,16 @@
       function goBack() {
         window.history.back();
       }
-      </script>
+    </script>
   
-    <!-- <div class="navbar-wrapper"> -->
-    <!-- <div class="container"> -->
-    <h1>COVID-19 Kolkata Resources</h1>
-    <!-- </div> -->
-    <!-- </div> -->
+    <h1>COVID-19 Kolkata Live Resources</h1>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="conatiner" style="overflow-x: auto;">
+
     <?php
     error_reporting(0);
-    $dir = "upload/uploadKolkata/";
+    $dir = "uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
 
