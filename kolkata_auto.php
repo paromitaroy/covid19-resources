@@ -27,7 +27,8 @@
     <h1>COVID-19 Kolkata Resources</h1>
     <!-- </div> -->
     <!-- </div> -->
-
+    <img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
+  
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="overflow-x: auto;">
     <?php
@@ -54,14 +55,14 @@
         $file_type = strtolower($file_type_last_part);
 
 
-        <img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
+        #<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
 
         if ($file !== '.' && $file !== '..' && in_array($file_type, $file_display) == true) {
             echo 'Uploaded on ', date("F d, Y h:i:s A", $timestamp);
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-            <img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
+            #<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
        
             #echo '<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg">';
 
