@@ -48,19 +48,21 @@
   </head>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-  <p>Please select City and Category and upload- this will help crowd-source information<br>
-  <p> Just click and upload- the website will display this information by category in the respective page! <br>
+  <p><b>Please select City and Category and upload- this will help crowd-source information<br>
+  <p>Just click and upload- the website will display this information by category in the respective page! <br>
   <br>
   <br>
-  <p>City?<br>
+  <p> &#9889; <b>City?<br>
   <select name="City">
   <option value="Select the city">[Choose Option Below]</option>
   <option value="Kolkata">Kolkata</option>
   <option value="Pune">Pune</option>
-  <option value="Delhi">Delhi</option>
+  <option value="DelhiNCR">DelhiNCR</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Bangalore">Bangalore</option>
   </select><br><br>
   
-  <p>Category?<br>
+  <p> &#128209; <b>Category?<br>
   <select name="Category">
   <option value="Select the category of information">[Choose Option Below]</option>
   <option value="Oxygen">Oxygen</option>
