@@ -42,6 +42,27 @@
   </head>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
+  <p>Please select City and Category and upload- this will help crowd-source information<br>
+  <p> Just click and upload- the website will display this information by category in the respective page! <br>
+  <br>
+  <br>
+  <p>City?<br>
+  <select name="City">
+  <option value="Select the city">[Choose Option Below]</option>
+  <option value="Kolkata">Kolkata</option>
+  <option value="Pune">Pune</option>
+  <option value="Delhi">Delhi</option>
+  </select><br><br>
+  
+  <p>Category?<br>
+  <select name="Category">
+  <option value="Select the category of information">[Choose Option Below]</option>
+  <option value="Oxygen">Oxygen</option>
+  <option value="Beds">Beds</option>
+  <option value="ICU">ICU</option>
+  </select><br>
+  <br>
+  <br>
   Select image to upload:
   <input type="file" name="fileToUpload" id="fileToUpload">
   <input type="submit" value="Upload Image" name="submit">
