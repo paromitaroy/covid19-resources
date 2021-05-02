@@ -32,7 +32,7 @@
     <div class="conatiner" style="overflow-x: auto;">
     <?php
     #error_reporting(0);
-    $dir = "upload/uploadKolkata/";
+    $dir = "uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
     
