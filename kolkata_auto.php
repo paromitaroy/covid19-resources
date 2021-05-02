@@ -11,23 +11,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <style>
-
-        table.kolkata {
-            table-layout: fixed;
-            width: 50%; 
-            text-align: center; 
-            border: antiquewhite;
-            border-collapse: collapse;
-            border: 1px solid brown;
-        }
-        .kolkata{
-        margin: 10px;
-        }
-        th,td {
-        border: 1px solid black;
-        }
-    </style> -->
   </head>
 
   <body>
@@ -48,7 +31,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="conatiner" style="overflow-x: auto;">
     <?php
-    error_reporting(0);
+    #error_reporting(0);
     $dir = "upload/uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
@@ -76,7 +59,7 @@
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-            echo <img src="/upload/uploadKolkata/1619957405-Oxygen+Screenshot 2021-05-02 125754.jpg">
+            echo <img src="/upload/uploadKolkata/1619957405-Oxygen+Screenshot 2021-05-02 125754.jpg">;
            # echo '<img src="/', $dir, '', $file, '" alt="', $file, '" /,width="380" height="350 /n">';
             echo "<br>";
             echo "<br>";
