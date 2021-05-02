@@ -66,12 +66,13 @@
         $file_type_first_part=reset(explode('.', $file));
         $timestampanddate=reset(explode('+', $file_type_first_part));
         $timestamp=reset(explode('-', $timestampanddate));
-        $category=end(explode('+', $timestampanddate));
+        $category=end(explode('-', $timestampanddate));
         $file_type = strtolower($file_type_last_part);
 
 
         if ($file !== '.' && $file !== '..' && in_array($file_type, $file_display) == true) {
             echo 'Uploaded on ', date("F d, Y h:i:s A", $timestamp);
+            echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
             #echo '<img src="upload/uploadKolkata/1619954030-Oxygen+Capture.png">';
