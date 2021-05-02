@@ -48,8 +48,8 @@
   </head>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-  <p><b>Please select City and Category and upload- this will help crowd-source information<br>
-  <p>Just click and upload- the website will display this information by category in the respective page! <br>
+  <p><b>Please select City and Category and upload - this will help crowd-source information<br>
+  <p>Just click and upload - the website will display this information by category in the respective page!<br>
   <br>
   <br>
   <p> &#9889; <b>City?<br>
@@ -72,6 +72,7 @@
   <br>
   <br>
   Select image to upload:
+  <br>
   <input type="file" name="fileToUpload" id="fileToUpload">
   <input type="submit" value="Upload Image" name="submit">
 </form>
