@@ -36,7 +36,7 @@
 
     <?php
     error_reporting(0);
-    $dir = "./upload/uploadKolkata/";
+    $dir = "/upload/uploadDelhiNCR/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
 
