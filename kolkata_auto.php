@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kolkata Leads</title>
+    <title>Kolkata Live Leads</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
     <div class="conatiner" style="overflow-x: auto;">
     <?php
     error_reporting(0);
-    $dir = "upload/uploadKolkata/";
+    $dir = "/upload/uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
     
