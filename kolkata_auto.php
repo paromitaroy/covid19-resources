@@ -7,10 +7,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <style>
+      body {
+        background-color: #ADD8E6;
+      }
+    </style>
+
     <title>Kolkata Live Leads</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
 
   </head>
 
