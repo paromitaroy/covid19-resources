@@ -1,6 +1,6 @@
 
 <?php
-$target_dir = "upload/upload".$_POST["City"]."/";
+$target_dir = "upload".$_POST["City"]."/";
 $current_timestamp = strtotime("now");
 $target_file = $target_dir . $current_timestamp."-".$_POST["Category"]."+".basename($_FILES["fileToUpload"]["name"]);
 
