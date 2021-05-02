@@ -59,7 +59,7 @@
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-            echo '<img src="/', $dir, $file, '" alt="', $file, '" /,width="380" height="350 /n">';
+            echo '<img src="', $dir, $file, '" alt="', $file, '" /,width="380" height="350 /n">';
             echo "<br>";
             echo "<br>";
             echo "<br>";
