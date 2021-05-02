@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kolkata Leads</title>
+    <title>Kolkata Live Leads</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
     <h1>COVID-19 Kolkata Live Resources</h1>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="conatiner" style="overflow-x: auto;">
+    <div class="container" style="overflow-x: auto;">
 
     <?php
     error_reporting(0);
@@ -45,7 +45,7 @@
       foreach ($dir_contents as $file) {
         $file_type_last_part=end(explode('.', $file));
         $file_type_first_part=reset(explode('.', $file));
-        $timestampanddate=reset(explode('+', $file_type_first_part));
+        $timestampanddate=reset(explode('_', $file_type_first_part));
         $timestamp=reset(explode('-', $timestampanddate));
         $category=end(explode('-', $timestampanddate));
         $file_type = strtolower($file_type_last_part);
@@ -56,7 +56,7 @@
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-            #echo '<img src="upload/uploadKolkata/1619954030-Oxygen+Capture.png">';
+
             echo '<img src="'. $dir. $file. '" alt="'. $file. '" /,width="380" height="350 /n">';
             echo "<br>";
             echo "<br>";
