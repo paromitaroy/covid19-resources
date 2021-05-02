@@ -7,10 +7,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kolkata Live Leads</title>
+    <title>Kolkata Leads</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <style>
+
+        table.kolkata {
+            table-layout: fixed;
+            width: 50%; 
+            text-align: center; 
+            border: antiquewhite;
+            border-collapse: collapse;
+            border: 1px solid brown;
+        }
+        .kolkata{
+        margin: 10px;
+        }
+        th,td {
+        border: 1px solid black;
+        }
+    </style> -->
   </head>
 
   <body>
@@ -24,19 +41,16 @@
   
     <!-- <div class="navbar-wrapper"> -->
     <!-- <div class="container"> -->
-    <h1>COVID-19 Kolkata Live Updates</h1>
+    <h1>COVID-19 Kolkata Resources</h1>
     <!-- </div> -->
     <!-- </div> -->
-    <img src= \ "/uploadKolkata/1619977374-Oxygen+125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>
-<!--     <img src="/img/bangalore/bengaluru.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br> -->
-  
+
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <!-- <div class="container" style="overflow-x: auto;">
+    <div class="conatiner" style="overflow-x: auto;">
     <?php
-    #error_reporting(0);
-    $dir = "uploadKolkata/";
+    error_reporting(0);
+    $dir = "upload/uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
-    
     
 
     if (file_exists($dir) == false) 
@@ -52,26 +66,17 @@
         $file_type_first_part=reset(explode('.', $file));
         $timestampanddate=reset(explode('+', $file_type_first_part));
         $timestamp=reset(explode('-', $timestampanddate));
-        $category=end(explode('+', $timestampanddate));
+        $category=end(explode('-', $timestampanddate));
         $file_type = strtolower($file_type_last_part);
 
 
-        #<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
-
         if ($file !== '.' && $file !== '..' && in_array($file_type, $file_display) == true) {
             echo 'Uploaded on ', date("F d, Y h:i:s A", $timestamp);
+            echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-<<<<<<< HEAD:kolkata_auto.php
             #echo '<img src="upload/uploadKolkata/1619954030-Oxygen+Capture.png">';
             echo '<img src="'. $dir. $file. '" alt="'. $file. '" /,width="380" height="350 /n">';
-=======
-            #<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg" alt="Bangalore Helpline" width="380" height="350" ></img><br>;
-       
-            #echo '<img src="/uploadKolkata/1619966361-Oxygen+Screenshot 2021-05-02 125754.jpg">';
-
-           # echo '<img src="', $dir, $file, '" alt="', $file, '" /,width="380" height="350 /n">';
->>>>>>> main:kolkata_auto.html
             echo "<br>";
             echo "<br>";
             echo "<br>";
@@ -83,7 +88,7 @@
     ?>
       <br>
       <br>
-    </div> -->
+    </div>
        
 
     <!-- Bootstrap core JavaScript
