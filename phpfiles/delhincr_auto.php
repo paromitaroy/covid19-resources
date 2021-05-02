@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kolkata Live Leads</title>
+    <title>Delhi NCR Live Leads</title>
 
     <style>
       body {
@@ -29,14 +29,14 @@
       }
     </script>
   
-    <h1> &#8987; COVID-19 Kolkata Recent Leads</h1>
+    <h1> &#8987; COVID-19 Delhi-NCR Recent Leads</h1>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="overflow-x: auto;">
 
     <?php
     error_reporting(0);
-    $dir = "/upload/uploadDelhiNCR/";
+    $dir = "../upload/uploadDelhiNCR/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
 
