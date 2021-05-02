@@ -59,8 +59,7 @@
             echo "<br>";
             echo 'Category is ',$category;
             echo "<br>";
-            <img src="/upload/uploadKolkata/1619957405-Oxygen+Screenshot 2021-05-02 125754.jpg"></img>;
-           # echo '<img src="/', $dir, '', $file, '" alt="', $file, '" /,width="380" height="350 /n">';
+            echo '<img src="/', $dir, $file, '" alt="', $file, '" /,width="380" height="350 /n">';
             echo "<br>";
             echo "<br>";
             echo "<br>";
