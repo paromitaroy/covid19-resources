@@ -7,17 +7,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <title>Kolkata Live Leads</title>
+
     <style>
       body {
-        background-color: #ADD8E6;
+      background-color: #ADD8E6;
       }
     </style>
 
-    <title>Kolkata Live Leads</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
 
   </head>
 
@@ -30,14 +29,14 @@
       }
     </script>
   
-    <h1>COVID-19 Kolkata Live Resources</h1>
+    <h1> &#8987; COVID-19 Kolkata Recent Leads</h1>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="overflow-x: auto;">
 
     <?php
     error_reporting(0);
-    $dir = "uploadKolkata/";
+    $dir = "upload/uploadKolkata/";
     $file_display = array('jpg', 'jpeg', 'png', 'gif');
     
 
