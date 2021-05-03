@@ -29,7 +29,7 @@
       }
     </script>
   
-    <h1> &#8987; COVID-19 Kolkata Recent Leads</h1>
+    <h1> &#9889; COVID-19 Kolkata Recent Leads</h1>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container" style="overflow-x: auto;">
