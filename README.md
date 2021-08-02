@@ -2,12 +2,6 @@
 :purple_heart: COVID-19 India Helpful Resources
 
 ---
-# APP URLs
-https://covidresourcesin.com
-
-www.covidresourcesin.com
-
----
 # Contribution
 
 - Git clone https://github.com/paromitaroy/covid19-resources.git
